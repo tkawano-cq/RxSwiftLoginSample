@@ -12,7 +12,7 @@ struct LoginRequest: HttpRequest {
 
     typealias Response = LoginResponse
     
-    var baseUrl: String { "http://54.250.239.8" }
+    var baseUrl: String { "https://localhost:3000" }
     
     var path: String { "/login" }
     
